@@ -1,26 +1,13 @@
 {
-    "name": "potato",
-    "description": "",
+    "name": "ev3-bluetooth",
+    "description": "A MakeCode extension for using Bluetooth on EV3",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*",
-        "automation": "github:microsoft/pxt-automation#v0.0.3"
+        "ev3-micropython": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
-        "README.md"
+        "Bluetooth.ts"
     ],
     "testFiles": [
         "test.ts"
-    ],
-    "targetVersions": {
-        "target": "5.0.12",
-        "targetId": "microbit"
-    },
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "blocksprj"
+    ]
 }
