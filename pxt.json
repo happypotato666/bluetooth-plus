@@ -1,6 +1,5 @@
 {
     "name": "ev3-bluetooth",
-    "version": "0.0.1",
     "description": "A MakeCode extension for using Bluetooth on EV3",
     "dependencies": {
         "ev3-micropython": "*"
